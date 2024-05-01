@@ -17,7 +17,7 @@ Packet Sniffer Tool using `scapy` or `pcapy`
 + It will ask you about the interface you want to sniff (nothing means default).
 + It will also ask about the number of packets you want to capture (0 means continuous)
   
-##### How to stop:
+##### How to Stop:
 + `CTRL + C` will terminate the script.
 
 + It will create a file named `packet_log.txt` in the default folder.
@@ -25,7 +25,7 @@ Packet Sniffer Tool using `scapy` or `pcapy`
 ## Installation:
 
 #### **Install Npcap Before running the script**
-Download and Install [Npcap Free Edition](https://npcap.com/#download) 
++ Download and Install [Npcap Free Edition](https://npcap.com/#download).
 
 #### ***scapy :***
 > A Packet manipulation program and library which is used to capture, create, manipulate, and analyze network packets at a low level using a simple and intuitive syntax.
