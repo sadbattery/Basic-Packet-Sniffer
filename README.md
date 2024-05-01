@@ -4,6 +4,7 @@ Packet Sniffer Tool using `scapy` or `pcapy`
 
 ### Libraries Used:
 + `scapy`
++ `pcapy`
 + `sys`
 
 ## How to Use:
@@ -31,7 +32,7 @@ Download and Install [Npcap Free Edition](https://npcap.com/#download)
 ```bash
 pip install scapy
 ```
-
+**OR**
 #### ***pcapy :***
 
 ```bash
@@ -44,3 +45,12 @@ pip install pcapy
 > + Access to System-Specific Parameters and Functions 
 > + Exit Functions
 
+## How to Troubleshoot (In case of Errors)
+
++ Run as Administrator
++ Check Npcap Installation
++ Restart Pcap Service
++ Update Scapy and Npcap
+  ```bash
+  pip install --upgrade scapy
+  ```
